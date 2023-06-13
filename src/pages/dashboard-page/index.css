@@ -1,0 +1,44 @@
+:root {
+    --body-margin: 6px
+}
+
+
+.dashboard-page {
+    padding-top: var(--body-margin);
+}
+
+.graphics-period {
+    margin-bottom: calc(var(--body-margin) * 2);
+    text-align: center;
+    line-height: 60px;
+}
+
+.graphics-container {
+    min-width: 300px;
+    width: 27.5%;
+    flex: 3 1 auto;
+    margin: 0 var(--body-margin);
+}
+
+.value-signatures-container {
+    width: 15%;
+    min-width: 170px;
+    max-height: 450px;
+    flex: 1 0 auto;
+    margin: 0 var(--body-margin);
+}
+
+.value-signatures-headline {
+    font-size: larger;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.error-container {
+    min-width: 250px;
+    max-height: 450px;
+    width: 27.5%;
+    flex: 1 1 auto;
+    margin: 0 var(--body-margin);
+}

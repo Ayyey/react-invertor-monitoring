@@ -1,0 +1,19 @@
+.line-container {
+    width: 100%;
+    position: relative;
+}
+
+.line-name {
+    padding: 0 6px;
+}
+
+.recharts-responsive-container {
+    position: relative;
+    right: 30px;
+
+}
+
+.line-name-element {
+    display: inline-block;
+    margin-right: 5px;
+}

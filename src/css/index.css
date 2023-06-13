@@ -1,0 +1,6 @@
+.dashboard-block {
+    width: auto;
+    min-height: 60px;
+    box-shadow: 1px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: calc(var(--body-margin) * 2);
+}
